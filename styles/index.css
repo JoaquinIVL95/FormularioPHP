@@ -1,0 +1,41 @@
+:root {
+    color-scheme: light dark;
+}
+
+body{
+    display:grid ;
+    /* place-content: center; */
+    
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+}
+
+.form-contenedor{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    width: 700px;
+    height: 80vh;
+    border-radius:  25px;
+}
